@@ -1,0 +1,99 @@
+.pizzaInfo {
+    position: absolute;
+    width: 40%;
+    top: 130px;
+    left: 5%;
+    padding: 10px 35px;
+}
+
+.pizzaImage {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.name {
+    margin-top: 20px;
+    margin-bottom: 2%;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #bdbbb8;
+    text-align: center;
+}
+
+.ingredients {
+    text-align: center;
+    font-weight: 600;
+}
+
+.calories {
+    margin-top: 4%;
+    font-weight: 600;
+}
+
+.price {
+    font-weight: 600;
+}
+
+#itemOptions {
+    position: absolute;
+    width: 40%;
+    left: 5%;
+    height: 50px;
+    top: 600px;
+}
+
+#count {
+    position: absolute;
+    top: 10px;
+    left: 35px;
+}
+
+#addItem,
+#removeItem {
+    position: absolute;
+    top: 4px;
+    left: 135px;
+}
+
+#addItem {
+    left: 225px;
+}
+
+#itemCount {
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    top: 10px;
+    left: 180px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#order {
+    position: absolute;
+    top: 4px;
+    right: 35px;
+}
+
+.ingredientsOptions {
+    box-sizing: border-box;
+    position: absolute;
+    width: 35%;
+    height: 400px;
+    top: 26%;
+    left: 55%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 20px;
+    overflow-y: scroll;
+    border-radius: 10pt;
+}
+
+.text {
+    position: absolute;
+    width: 35%;
+    top: 18%;
+    left: 55%;
+    text-align: center;
+}

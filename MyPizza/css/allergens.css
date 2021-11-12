@@ -1,0 +1,43 @@
+.allergens {
+    width: 50%;
+    margin: auto;
+    
+}
+
+h2 {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+.products {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+.products tr {
+     background-color: #ffffff
+    
+}
+
+.products tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.products td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.products th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #d22b2c;
+    color: white;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/makepizza.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>MyPizza</title>
+
+    <script src="https://kit.fontawesome.com/9c75e4562d.js"></script>
+</head>
+
+<body>
+    <div class="bar bar-top">
+        <a href="home.html"><img id="logo" src="images/logo.png" /></a>
+        <nav>
+            <a href="login.html" class="login"><button class="btn btn-info"><i class="fas fa-sign-in-alt"></i>Вход</button></a>
+            <a href="menu.html"><button class="btn btn-info"><i class="fas fa-clipboard-list"></i>Меню</button></a>
+            <a href="makepizza.html"><button class="btn btn-info"><i class="fas fa-pizza-slice"></i>Направи си пица</button></a>
+            <a href="shoppingCart.html" id="basket"><button class="btn btn-info"><i class="fas fa-shopping-basket"></i>Кошница</button></a>
+            <a href="profile.html" class="profile"><button class="btn btn-info"><i class="fas fa-user"></i>Профил</button></a>
+            <a class="logout"><button class="btn btn-info" onclick="logout()"><i class="fas fa-sign-out-alt"></i>Изход</button></a>
+        </nav>
+    </div>
+    <div class="message">Пицата е добавена в кошницата Ви!</div>
+    <div class="menu">
+        <p class="text" id="header1">НАЛИЧНИ ПРОДУКТИ</p>
+        <div class="ingredients">
+            <input type="checkbox" id="myCheck1" onclick="myFunction()"> Доматен coc <br>
+            <input type="checkbox" id="myCheck2" onclick="myFunction()"> Моцарела <br>
+            <input type="checkbox" id="myCheck3" onclick="myFunction()"> Шунка <br>
+            <input type="checkbox" id="myCheck4" onclick="myFunction()"> Бекон <br>
+            <input type="checkbox" id="myCheck5" onclick="myFunction()"> Гъби <br>
+            <input type="checkbox" id="myCheck6" onclick="myFunction()"> Царевица <br>
+            <input type="checkbox" id="myCheck7" onclick="myFunction()"> Пилешко филе <br>
+            <input type="checkbox" id="myCheck8" onclick="myFunction()"> Бейби спанак <br>
+            <input type="checkbox" id="myCheck9" onclick="myFunction()"> Маслини <br>
+            <input type="checkbox" id="myCheck10" onclick="myFunction()"> Ананас <br>
+            <input type="checkbox" id="myCheck11" onclick="myFunction()"> Кисели краставици <br>
+            <input type="checkbox" id="myCheck12" onclick="myFunction()"> Чушки <br>
+            <input type="checkbox" id="myCheck13" onclick="myFunction()"> Краставици <br>
+        </div>
+
+        <p class="text" id="header2">СЪСТАВКИ ЗА ВАШАТА ПИЦА</p>
+        <div class="make-pizza">
+            <p id="text1" style="display:none">Доматен coc</p>
+            <p id="text2" style="display:none">Моцарела</p>
+            <p id="text3" style="display:none">Шунка</p>
+            <p id="text4" style="display:none">Бекон</p>
+            <p id="text5" style="display:none">Гъби</p>
+            <p id="text6" style="display:none">Царевица</p>
+            <p id="text7" style="display:none">Пилешко филе</p>
+            <p id="text8" style="display:none">Бейби спанак</p>
+            <p id="text9" style="display:none">Маслини</p>
+            <p id="text10" style="display:none">Ананас</p>
+            <p id="text11" style="display:none">Кисели краставици</p>
+            <p id="text12" style="display:none">Чушки</p>
+            <p id="text13" style="display:none">Краставици</p>
+        </div>
+        <button class="btn btn-success" id="order" disabled>Поръчайте</button>
+    </div>
+    <div class="bar bar-bottom">
+        <nav>
+            <a href="menu.html" class="btn btn-link">Меню</a>
+            <a href="contacts.html" class="btn btn-link">Контакти</a>
+            <a href="allergens.html" class="btn btn-link">Алергени</a>
+            <a href="calories.html" class="btn btn-link">Калории</a>
+        </nav>
+    </div>
+
+    <script src="js/makepizza.js"></script>
+    <script src="js/logout.js"></script>
+</body>
+
+</html>

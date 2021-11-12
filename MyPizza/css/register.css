@@ -1,0 +1,11 @@
+.pad {
+    width: 540px;
+    height: 430px;
+    top: 52%;
+    left: 50%;
+    transform: translate(-52%, -50%);
+}
+
+#registerBtn {
+    width: 200px;
+}

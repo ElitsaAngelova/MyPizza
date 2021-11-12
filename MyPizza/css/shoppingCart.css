@@ -1,0 +1,102 @@
+#orderInfo {
+    width: 90%;
+    margin: 5%;
+}
+
+.pad {
+    width: 45%;
+    height: auto;
+    top: 150px;
+    left: 50px;
+}
+
+.row {
+    padding: 10px 0;
+    border-bottom: 1px solid #a6a6a6;
+    margin: auto;
+}
+
+.header {
+    border-bottom: 2px solid #999;
+    color: #999;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 0;
+}
+
+.productName {
+    font-size: 26px;
+    font-weight: 500;
+    color: #17a2b8;
+    line-height: 36px;
+}
+
+.productPrice {
+    font-size: 20px;
+    line-height: 38px;
+}
+
+#closeIcon:hover,
+.addProduct:hover,
+.removeProduct:hover {
+    cursor: pointer;
+}
+
+.removeProduct {
+    padding-right: 0;
+}
+
+.number {
+    margin: 0 10px;
+}
+
+.userPad {
+    width: 45%;
+    height: auto;
+    left: 50%;
+    padding: 20px;
+}
+
+.group {
+    display: inline;
+    margin: 15px 40px 15px 0;
+}
+
+.form-control {
+    display: inline;
+}
+
+.address {
+    display: block;
+}
+
+.phone {
+    width: 24%;
+}
+
+.floor {
+    width: 24%;
+}
+
+.image {
+    margin-right: 5px;
+}
+
+.value {
+    margin-right: 10px;
+}
+
+.notes {
+    resize: none;
+}
+
+.btn.btn-success {
+    width: 260px;
+    margin-left: 30%;
+}
+
+.totalPrice {
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: none;
+}

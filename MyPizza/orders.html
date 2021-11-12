@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet" type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/orders.css">
+
+    <title>MyPizza</title>
+
+    <script src="https://kit.fontawesome.com/9c75e4562d.js"></script>
+</head>
+
+<body>
+    <div class="bar bar-top">
+        <a href="orders.html"><img id="logo" src="images/logo.png" /></a>
+
+        <nav>
+            <a href="orders.html"><button class="btn btn-info"><i class="fas fa-archive"></i>Поръчки</button></a>
+            <a href="adminMenu.html"><button class="btn btn-info"><i class="fas fa-clipboard-list"></i>Меню</button></a>
+            <a href="products.html"><button class="btn btn-info"><i class="fas fa-carrot"></i>Продукти</button></a>
+            <a class="logout"><button class="btn btn-info" onclick="logout()"><i class="fas fa-sign-out-alt"></i>Изход</button></a>
+        </nav>
+    </div>
+
+    <div class="pad ordersPad">
+        <div class="orders"></div>
+    </div>
+
+    <div class="bar bar-bottom"></div>
+
+    <script src="js/orders.js"></script>
+    <script src="js/logout.js"></script>
+</body>
+
+</html>

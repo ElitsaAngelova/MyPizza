@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/allergens.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>MyPizza</title>
+
+    <script src="https://kit.fontawesome.com/9c75e4562d.js"></script>
+</head>
+
+<body>
+    <div class="bar bar-top">
+        <a href="home.html"><img id="logo" src="images/logo.png" /></a>
+        <nav>
+            <a href="login.html" class="login"><button class="btn btn-info"><i class="fas fa-sign-in-alt"></i>Вход</button></a>
+            <a href="menu.html"><button class="btn btn-info"><i class="fas fa-clipboard-list"></i>Меню</button></a>
+            <a href="makepizza.html"><button class="btn btn-info"><i class="fas fa-pizza-slice"></i>Направи си пица</button></a>
+            <a href="shoppingCart.html" id="basket"><button class="btn btn-info"><i class="fas fa-shopping-basket"></i>Кошница</button></a>
+            <a href="profile.html" class="profile"><button class="btn btn-info"><i class="fas fa-user"></i>Профил</button></a>
+            <a class="logout"><button class="btn btn-info" onclick="logout()"><i class="fas fa-sign-out-alt"></i>Изход</button></a>
+        </nav>
+    </div>
+
+    <div class="allergens">
+        <h2> Информация за калории </h2>
+        <table class="products">
+            <tr>
+                <th>Продукт</th>
+                <th>Калории</th>
+                <th>Калории на парче</th>
+            </tr>
+            <tr>
+                <td>Маргарита</td>
+                <td>1272</td>
+                <td>159</td>
+            </tr>
+            <tr>
+                <td>Пеперони</td>
+                <td>1912</td>
+                <td>239</td>
+            </tr>
+            <tr>
+                <td>Италианска</td>
+                <td>1320</td>
+                <td>165</td>
+            </tr>
+            <tr>
+                <td>Хавай</td>
+                <td>1488</td>
+                <td>186</td>
+            </tr>
+            <tr>
+                <td>Формаджи</td>
+                <td>1488</td>
+                <td>186</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="bar bar-bottom">
+        <nav>
+            <a href="menu.html" class="btn btn-link">Меню</a>
+            <a href="contacts.html" class="btn btn-link">Контакти</a>
+            <a href="allergens.html" class="btn btn-link">Алергени</a>
+            <a href="calories.html" class="btn btn-link">Калории</a>
+        </nav>
+    </div>
+
+    <script src="js/logout.js"></script>
+</body>
+
+</html>

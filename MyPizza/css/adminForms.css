@@ -1,0 +1,46 @@
+.field {
+    display: inline-block;
+}
+
+label {
+    vertical-align: middle;
+}
+
+.ingredientsLabel {
+    vertical-align: top;
+}
+
+#ingredients {
+    resize: none;
+}
+
+.field .btn-info,
+.field .btn-danger {
+    width: 120px;
+    margin: 15px auto;
+    display: block;
+}
+
+.btn-danger {
+    margin-left: 60px;
+}
+
+.pad.pizzaInfo {
+    width: 580px;
+    height: 530px;
+    top: 52%;
+    left: 50%;
+    transform: translate(-52%, -50%);
+}
+
+.form-group {
+    margin-bottom: 0;
+}
+
+.addPizzaPad {
+    width: 700px;
+    height: 540px;
+    top: 52%;
+    left: 50%;
+    transform: translate(-52%, -50%);
+}

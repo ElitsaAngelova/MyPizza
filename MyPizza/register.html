@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>MyPizza</title>
+
+    <script src="https://kit.fontawesome.com/9c75e4562d.js"></script>
+</head>
+
+<body>
+    <div class="bar bar-top">
+        <a href="home.html"><img id="logo" src="images/logo.png" /></a>
+        <nav>
+            <a href="login.html" class="login"><button class="btn btn-info"><i class="fas fa-sign-in-alt"></i>Вход</button></a>
+            <a href="menu.html"><button class="btn btn-info"><i class="fas fa-clipboard-list"></i>Меню</button></a>
+            <a href="makepizza.html"><button class="btn btn-info"><i class="fas fa-pizza-slice"></i>Направи си пица</button></a>
+            <a href="shoppingCart.html" id="basket"><button class="btn btn-info"><i class="fas fa-shopping-basket"></i>Кошница</button></a>
+        </nav>
+    </div>
+    <div class="pad">
+        <form method="POST">
+            <h2>РЕГИСТРАЦИЯ</h2>
+            <input type="text" class="form-control" id="firstName" placeholder="Име" />
+            <p class="error" id="firstNameError"></p>
+            <input type="text" class="form-control" id="lastName" placeholder="Фамилия" />
+            <p class="error" id="lastNameError"></p>
+            <input type="text" class="form-control" id="email" placeholder="E-mail" />
+            <p class="error" id="emailError"></p>
+            <input type="password" class="form-control" id="password" placeholder="Парола" />
+            <p class="error" id="passwordError"></p>
+            <input type="password" class="form-control" id="confirmPassword" placeholder="Повтори паролата" />
+            <p class="error" id="confirmPasswordError"></p>
+            <p class="error" id="generalError"></p>
+            <button class="btn btn-info" id="registerBtn" onclick="register(event)">Регистрация</button>
+        </form>
+    </div>
+    <div class="bar bar-bottom">
+        <nav>
+            <a href="menu.html" class="btn btn-link">Меню</a>
+            <a href="contacts.html" class="btn btn-link">Контакти</a>
+            <a href="allergens.html" class="btn btn-link">Алергени</a>
+            <a href="calories.html" class="btn btn-link">Калории</a>
+        </nav>
+    </div>
+
+    <script src="js/register.js"></script>
+    <script src="js/logout.js"></script>
+</body>
+
+</html>

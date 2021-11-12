@@ -1,0 +1,10 @@
+.pad {
+    width: 540px;
+    height: 190px;
+    top: 52%;
+    left: 50%;
+    transform: translate(-52%, -50%);
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 17pt;
+    padding: 25px 20px 15px;
+}

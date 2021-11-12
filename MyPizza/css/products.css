@@ -1,0 +1,45 @@
+.pad.productsPad {
+    width: 40%;
+    height: 70%;
+    top: 130px;
+    left: 50px;
+    overflow-y: scroll;
+}
+
+.pad.addproductPad {
+    width: 40%;
+    height: 210px;
+    top: 130px;
+    left: 50%;
+    padding: 20px 0;
+}
+
+.products,
+.addProduct {
+    position: absolute;
+    width: 90%;
+    left: 5%;
+}
+
+.row {
+    padding: 5px 0;
+    border-bottom: 1px solid #a6a6a6;
+    margin: auto;
+}
+
+.header {
+    border-bottom: 2px solid #999;
+    color: #999;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 13px;
+}
+
+.addProductForm {
+    display: block;
+    top: auto;
+}
+
+#productName {
+    margin-right: 10px;
+}

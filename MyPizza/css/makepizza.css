@@ -1,0 +1,74 @@
+.btn-info {
+    margin: 0 2px;
+}
+
+.btn-info:hover {
+    color: #fff9d3;
+    text-decoration: none;
+}
+
+.make-pizza {
+    box-sizing: border-box;
+    position: absolute;
+    width: 35%;
+    height: 400px;
+    top: 26%;
+    right: 12%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 20px;
+    overflow-y: scroll;
+    border-radius: 10pt;
+}
+
+.ingredients {
+    box-sizing: border-box;
+    position: absolute;
+    width: 35%;
+    height: 400px;
+    top: 26%;
+    left: 12%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 20px;
+    overflow-y: scroll;
+    border-radius: 10pt;
+}
+
+.text {
+    text-align: center;
+    font-weight: bold;
+}
+
+#header1 {
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    width: 35%;
+}
+
+#header2 {
+    position: absolute;
+    top: 20%;
+    right: 12%;
+    width: 35%;
+}
+
+#order {
+    position: absolute;
+    top: 608px;
+    right: 12%;
+}
+
+.message {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    top: 100px;
+    background-color: #28a745;
+    color: #fff;
+    text-align: center;
+    display: none;
+}

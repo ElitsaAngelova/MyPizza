@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet" type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pizzaInfo.css">
+
+    <title>MyPizza</title>
+
+    <script src="https://kit.fontawesome.com/9c75e4562d.js"></script>
+</head>
+
+<body>
+    <div class="bar bar-top">
+        <a href="home.html"><img id="logo" src="images/logo.png" /></a>
+        <nav>
+            <a href="login.html" class="login"><button class="btn btn-info"><i class="fas fa-sign-in-alt"></i>Вход</button></a>
+            <a href="menu.html"><button class="btn btn-info"><i class="fas fa-clipboard-list"></i>Меню</button></a>
+            <a href="makepizza.html"><button class="btn btn-info"><i class="fas fa-pizza-slice"></i>Направи си пица</button></a>
+            <a href="shoppingCart.html"><button class="btn btn-info" id="basket"><i class="fas fa-shopping-basket"></i>Кошница</button></a>
+            <a href="profile.html" class="profile"><button class="btn btn-info"><i class="fas fa-user"></i>Профил</button></a>
+            <a class="logout"><button class="btn btn-info" onclick="logout()"><i class="fas fa-sign-out-alt"></i>Изход</button></a>
+        </nav>
+    </div>
+
+    <div class="message">Пицата е добавена в кошницата Ви!</div>
+    <div class="pizzaInfo"></div>
+
+    <div id="itemOptions">
+        <p id="count">Количество: </p>
+        <img src="images/minus.svg" id="removeItem" onclick="removeItem()">
+        <div id="itemCount">1</div>
+        <img src="images/plus.svg" id="addItem" onclick="addItem()">
+        <button class="btn btn-success" id="order" onclick="addToCart()">Поръчайте</button>
+    </div>
+
+
+    <h2 class="text">ПРОДУКТИ</h2>
+    <div class="ingredientsOptions">
+        <input type="checkbox" id="option1" onclick="myFunction(1)" checked><span id="myCheck1"> доматен coc</span><br>
+        <input type="checkbox" id="option2" onclick="myFunction(2)" checked><span id="myCheck2"> моцарела</span><br>
+        <input type="checkbox" id="option3" onclick="myFunction(3)"><span id="myCheck3"> шунка </span><br>
+        <input type="checkbox" id="option4" onclick="myFunction(4)"><span id="myCheck4"> бекон</span><br>
+        <input type="checkbox" id="option5" onclick="myFunction(5)"><span id="myCheck5"> гъби</span><br>
+        <input type="checkbox" id="option6" onclick="myFunction(6)"><span id="myCheck6"> царевица</span><br>
+        <input type="checkbox" id="option7" onclick="myFunction(7)"><span id="myCheck7"> пилешко филе</span><br>
+        <input type="checkbox" id="option8" onclick="myFunction(8)" checked><span id="myCheck8"> пеперони</span><br>
+        <input type="checkbox" id="option9" onclick="myFunction(9)"><span id="myCheck9"> бейби спанак</span><br>
+        <input type="checkbox" id="option10" onclick="myFunction(10)"><span id="myCheck10"> маслини</span><br>
+        <input type="checkbox" id="option11" onclick="myFunction(11)"><span id="myCheck11"> ананас</span><br>
+        <input type="checkbox" id="option12" onclick="myFunction(12)"><span id="myCheck12"> кисели краставички</span><br>
+        <input type="checkbox" id="option13" onclick="myFunction(13)"><span id="myCheck13"> чушки</span><br>
+    </div>
+
+    <div class="bar bar-bottom">
+        <nav>
+            <a href="menu.html" class="btn btn-link">Меню</a>
+            <a href="contacts.html" class="btn btn-link">Контакти</a>
+            <a href="allergens.html" class="btn btn-link">Алергени</a>
+            <a href="calories.html" class="btn btn-link">Калории</a>
+        </nav>
+    </div>
+
+    <script src="js/pizzaInfo.js"></script>
+    <script src="js/logout.js"></script>
+</body>
+
+</html>

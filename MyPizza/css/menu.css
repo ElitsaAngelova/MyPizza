@@ -1,0 +1,72 @@
+.btn-info {
+    margin: 0 2px;
+}
+
+.btn-info:hover {
+    color: #fff9d3;
+    text-decoration: none;
+}
+
+.menu {
+    width: 80%;
+    margin: 120px 10% 60px;
+}
+
+.pizza {
+    position: relative;
+    display: inline-table;
+    width: 22%;
+    height: 500px;
+    margin: 0 3% 20px 0;
+    background-color: #fff;
+    border: 2px solid #ebeaec;
+    border-radius: 10px;
+}
+
+.image {
+    width: 100%;
+    margin-bottom: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.name {
+    width: 90%;
+    margin-left: 5%;
+    padding-bottom: 8px;
+    text-align: center;
+    border-bottom: 1px solid #bdbbb8;
+}
+
+.ingredients {
+    color: #7a7977;
+    position: absolute;
+    text-align: center;
+    height: 108px;
+    padding: 0 10px;
+}
+
+.pizza .btn-success {
+    position: absolute;
+    width: 90%;
+    margin: 10px 5%;
+    bottom: 10px;
+}
+
+.newPizza {
+    cursor: pointer;
+}
+
+.addPizza {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.addPizzaText {
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    text-align: center;
+}

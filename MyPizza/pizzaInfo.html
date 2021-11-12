@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet" type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adminForms.css">
+
+    <title>MyPizza</title>
+
+    <script src="https://kit.fontawesome.com/9c75e4562d.js"></script>
+</head>
+
+<body>
+    <div class="bar bar-top">
+        <a href="orders.html"><img id="logo" src="images/logo.png" /></a>
+
+        <nav>
+            <a href="orders.html"><button class="btn btn-info"><i class="fas fa-archive"></i>Поръчки</button></a>
+            <a href="adminMenu.html"><button class="btn btn-info"><i class="fas fa-clipboard-list"></i>Меню</button></a>
+            <a href="products.html"><button class="btn btn-info"><i class="fas fa-carrot"></i>Продукти</button></a>
+            <a class="logout"><button class="btn btn-info" onclick="logout()"><i class="fas fa-sign-out-alt"></i>Изход</button></a>
+        </nav>
+    </div>
+
+    <div class="pad pizzaInfo">
+        <form method="POST" class="form-horizontal">
+            <h2>ПРОМЯНА НА ПИЦА</h2>
+            <div class="form-group">
+                <label for="name" class="col-sm-2 control-label">Име</label>
+                <div class="col-sm-9 field">
+                    <input type="text" class="form-control" id="name">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="ingredients" class="col-sm-2 control-label ingredientsLabel">Съставки</label>
+                <div class="col-sm-9 field">
+                    <textarea class="form-control" id="ingredients" rows="5"></textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="calories" class="col-sm-2 control-label">Калории</label>
+                <div class="col-sm-9 field">
+                    <input type="text" class="form-control" id="calories">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="price" class="col-sm-2 control-label">Цена</label>
+                <div class="col-sm-9 field">
+                    <input type="text" class="form-control" id="price">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="image" class="col-sm-2 control-label">Снимка</label>
+                <div class="col-sm-9 field">
+                    <input type="file" id="image" placeholder="Снимка" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-6 field">
+                    <button class="btn btn-info" onclick="changePizza(event)">Промяна</button>
+                </div>
+                <div class="col-sm-5 field">
+                    <button class="btn btn-danger" onclick="deletePizza(event)">Изтриване</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="bar bar-bottom"></div>
+
+    <script src="js/changePizza.js"></script>
+    <script src="js/logout.js"></script>
+</body>
+
+</html>
